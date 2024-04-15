@@ -1,2 +1,5 @@
+# import math
+# def century(year):
+#     return math.ceil(year / 100)
 def century(year):
-    pass
+    return (year + 99) // 100

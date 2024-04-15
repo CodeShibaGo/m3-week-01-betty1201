@@ -1,2 +1,9 @@
 def is_square(n):
-    pass
+    if n < 0:
+        return False
+    num = int(n ** 0.5)
+    return num * num == n
+
+
+
+
