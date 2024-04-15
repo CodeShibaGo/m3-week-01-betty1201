@@ -1,2 +1,2 @@
 def find_capitals(word):
-    pass
+    return ''.join(w for w in word if w.isupper())

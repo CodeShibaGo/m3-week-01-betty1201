@@ -1,8 +1,11 @@
-def reverse_string(s):
-    str = ""
-    for i in list(reversed(s)):
-        str += i
-        return str
+# def reverse_string(str):
+#     return ''.join(reversed(str))
 
+# def reverse_string(str):
+#     restring = ""
+#     for s in str:
+#         restring = s + restring
+#     return restring
 
-print(reverse_string("123"))
+def reverse_string(str):
+    return str[::-1]
